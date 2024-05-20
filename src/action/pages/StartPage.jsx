@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './style1.css'
+// import './style1.css'
 import bg1 from '../assets/college_grad.jpg'
 import bg2 from '../assets/plane.png'
 
@@ -7,7 +7,7 @@ const images = [
     { url: bg1, text: 'Background 1', id: 0 },
     { url: bg2, text: 'Background 2', id: 1 },
     { url: '/images/bg3.jpg', text: 'Background 3', id: 2 },
-]
+];
 
 const StartPage = () => {
     const [currentImage, setCurrentImage] = useState(images[0]);
